@@ -37,7 +37,6 @@ export const html = () => {
 }
 
 // Scripts
-
 export const scripts = () => {
   return gulp.src('source/js/script.js')
     .pipe(terser())
